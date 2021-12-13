@@ -1,0 +1,171 @@
+/* -----------------------------------------------body styling----------------------------------------------- */
+body{
+    overflow-x:hidden;
+    width:100%;
+}
+/* -----------------------------------------------navbar styling----------------------------------------------- */
+.navbar-fixed-top{
+width:99%;
+display: flex;
+}
+.nav-links{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: space-around;
+    width: 892px;
+}
+.nav-links li {
+    padding: 39px;
+    width: 100px;
+}
+.nav-links a{
+    text-decoration:none;
+    width: 100px;
+    font-family: "Bodoni MT";
+    font-size: 26px;
+    color: #274690;
+    font-weight: normal;
+}
+/* -----------------------------------------------section1 styling----------------------------------------------- */
+.sec1{
+    background-color: #274690;
+    padding: 20px;
+    justify-content: space-around;
+    display: flex;
+    margin: 43px auto;
+    width: 85.99%;
+}
+.box-title{
+    text-align: center;
+    font-family: monospace;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 100;
+}
+.ti{
+    display:flex;
+    flex-direction: column;
+    display: flex;
+    line-height: 30px;
+    justify-content: center;
+}
+/* -----------------------------------------------section2 styling----------------------------------------------- */
+.title-search{
+    border-bottom: 1px solid #274690a6;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    padding: 10px;
+    margin: 32px;
+    color: #274690;
+}
+.result-container{
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+}
+.car-card img{
+    display: block;
+    margin: 0 auto;
+    width: 170px;
+    height: 109px;
+}
+.car-card{
+    padding: 29px;
+    width: 200px;
+    cursor: pointer;
+}
+.car-card:hover{
+    opacity: 0.7;
+}
+.model-car{
+    font-weight: 600;
+    font-family: -webkit-pictograph;
+    font-size: 14px;
+    line-height: 17px;
+    width: 101px;
+    text-align: center;
+    margin: 12px auto;
+}
+.price-car{
+    font-weight: 600;
+    font-family: -webkit-pictograph;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    margin: 0px auto;
+}
+.pagination {
+    justify-content: flex-end;
+    display: flex;
+    list-style: none;
+    border-radius: 0.25rem;
+    padding-right: 18px;
+}
+.page-item .page-link {
+    list-style: none;
+    text-decoration: none;
+    border: 2px solid #274690;
+    margin: 5px;
+    z-index: 1;
+    color: #274690;
+    border-color: #274690;
+    border-radius: 5px;
+    display: block;
+    cursor: pointer;
+}
+.page-link {
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #274690;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    cursor: pointer;
+}
+
+/* -----------------------------------------------footer styling----------------------------------------------- */
+.footer-fixed-bottom{
+    background-color: #274690;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+}
+.contact-us{
+    display: flex;
+}
+.contact-us h4{
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    padding: 10px;
+    line-height: 20px;
+}
+.copyright h4{
+    margin: 15px;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    padding: 10px;
+    line-height: 20px;
+}
+.media{
+    justify-content: space-evenly;
+    width: 145px;
+    display: flex;
+    margin: 28px;
+}
+.fab{
+    color: #fff;
+}
+.fa-long-arrow-alt-right{
+    color:#274690;
+}
+
+

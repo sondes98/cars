@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     -->
+        <title>Document</title>
+</head>
+
+<body>
+    <!-- ------------------------------------------navbar----------------------------------------------------- -->
+    <navbar class="navbar-default navbar-fixed-top">
+        <nav class="logo">
+            <a href="index.html">
+                <img src="./images/logo.png" alt="logo" />
+            </a>
+        </nav>
+        <nav class="">
+            <ul class="nav-links">
+                <li>
+                    <a href="index.html">Acueil</a>
+                </li>
+                <li>
+                    <a href="cars.html">Véhicules</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="about.html">A propos</a>
+                </li>
+            </ul>
+        </nav>
+    </navbar>
+    <!-- ------------------------------------------section 1----------------------------------------------------- -->
+    <section class="sec1 sec-container1">
+        <div class="sub-sec1 brand">
+            <h1 class="box-title"> Marque </h1>
+            <input placeholder="Marque" type="text" name="marque" class="input-m" />
+        </div>
+        <div class="sub-sec1 model">
+            <h1 class="box-title"> Modèle </h1>
+            <input placeholder="Modèle" type="text" name="modèle" class="input-m" />
+        </div>
+        <div class="sub-sec1 price">
+            <h1 class="box-title"> Prix </h1>
+            <input type="range" value="24" min="1" max="100" oninput="this.nextElementSibling.value = this.value">
+            <output>24</output>
+        </div>
+        <div class="sub-sec1 gearbox">
+            <h1 class="box-title"> Boite </h1>
+            <div class="ti">
+                <label> <input type="checkbox" id="" name="auto" />
+                    Automatique</label>
+                <label> <input type="checkbox" id="" name="manuel" />
+                    manuel</label>
+            </div>
+        </div>
+        <div class="sub-sec1 doors">
+            <h1 class="box-title"> Nombre de prote</h1>
+            <div class="ti">
+                <label><input type="checkbox" id="" name="doors" />2 portes</label>
+                <label> <input type="checkbox" id="" name="doors" />4 portes</label>
+            </div>
+        </div>
+    </section>
+    <!-- ------------------------------------------section 1----------------------------------------------------- -->
+    <secton class="sec2">
+        <h1 class="title-search"> Résultats de recherche</h1>
+        <div class="result-container">
+            <div class="car-card">
+                <img src="./images/ph1.png" alt="car" class="img-responsive" />
+                <h5 class="model-car">Peugeot Landtrek Cabine</h5>
+                <h5 class="price-car"> à partir de </h5>
+            </div>
+            <div class="car-card">
+                <img src="./images/ph2.png" alt="car" class="img-responsive" />
+                <h5 class="model-car">Peugeot Landtrek Cabine</h5>
+                <h5 class="price-car"> à partir de </h5>
+            </div>
+            <div class="car-card">
+                <img src="./images/ph3.png" alt="car" class="img-responsive" />
+                <h5 class="model-car">Peugeot Landtrek Cabine</h5>
+                <h5 class="price-car"> à partir de </h5>
+            </div>
+            <div class="car-card">
+                <img src="./images/ph4.png" alt="car" class="img-responsive" />
+                <h5 class="model-car">Peugeot Landtrek Cabine</h5>
+                <h5 class="price-car"> à partir de </h5>
+            </div>
+            <div class="car-card">
+                <img src="./images/ph5.png" alt="car" class="img-responsive" />
+                <h5 class="model-car">Peugeot Landtrek Cabine</h5>
+                <h5 class="price-car"> à partir de </h5>
+            </div>
+            <div class="car-card">
+                <img src="./images/ph6.png" alt="car" class="img-responsive" />
+                <h5 class="model-car">Peugeot Landtrek Cabine</h5>
+                <h5 class="price-car"> à partir de </h5>
+            </div>
+            <div class="car-card">
+                <img src="./images/ph7.png" alt="car" class="img-responsive" />
+                <h5 class="model-car">Peugeot Landtrek Cabine</h5>
+                <h5 class="price-car"> à partir de </h5>
+            </div>
+            <div class="car-card">
+                <img src="./images/ph8.png" alt="car" class="img-responsive" />
+                <h5 class="model-car">Peugeot Landtrek Cabine</h5>
+                <h5 class="price-car"> à partir de </h5>
+            </div>
+
+            <div class="car-card">
+                <img src="./images/ph9.png" alt="car" class="img-responsive" />
+                <h5 class="model-car">Peugeot Landtrek Cabine</h5>
+                <h5 class="price-car"> à partir de </h5>
+            </div>
+            <div class="car-card">
+                <img src="./images/ph10.png" alt="car" class="img-responsive" />
+                <h5 class="model-car">Peugeot Landtrek Cabine</h5>
+                <h5 class="price-car"> à partir de </h5>
+            </div>
+            <div class="car-card">
+                <img src="./images/ph11.png" alt="car" class="img-responsive" />
+                <h5 class="model-car">Peugeot Landtrek Cabine</h5>
+                <h5 class="price-car"> à partir de </h5>
+            </div>
+            <div class="car-card">
+                <img src="./images/ph12.png" alt="car" class="img-responsive" />
+                <h5 class="model-car">Peugeot Landtrek Cabine</h5>
+                <h5 class="price-car"> à partir de </h5>
+            </div>
+        </div>
+        <nav aria-label="...">
+            <ul class="pagination">
+                <li class="page-item active"><a class="page-link" href="#">1 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="page-item ">
+                    <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#" tabindex="+1"><i class="fas fa-long-arrow-alt-right"></i></a>
+                </li>
+            </ul>
+        </nav>
+    </secton>
+    <!-- ------------------------------------------footer----------------------------------------------------- -->
+    <footer class="footer-fixed-bottom">
+        <div class="contact-us">
+            <h4>contact us</h4>
+            <h4>+21650691119
+                </br>
+                car_rental@mail.com
+            </h4>
+
+        </div>
+        <div class="copyright">
+            <h4>© Rental Car 2021</h4>
+        </div>
+        <div class="media">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+        </div>
+    </footer>
+</body>
+
+</html>
